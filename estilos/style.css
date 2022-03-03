@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(44, 44, 61);
+}
+
+.fondo{
+    background-color: blueviolet;
+}
+
+.claseheader {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.marco {
+    border: 2px solid blueviolet;
+    margin: 2rem 0rem;
+    padding: 1rem;
+}
+
+.foto {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width:1024px)
+{
+    .sticky {
+        top: 0px;
+        position: sticky;
+    }
+}
